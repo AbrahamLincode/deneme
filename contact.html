@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact LinCode</title>
+    </head>
+
+    <body>
+        <a href="index.html"><h3><strong>Go Homepage</strong></h3> </a>
+    
+        <h1><strong>Contact Me</strong></h1>
+        <hr>
+
+        <ul type="none" style="font-size: 25px;">         <!-- Ordered List / Sıralı listeleme yöntemi --> <!-- "type" attribute ile sıralama tipini roma rakamı yaptık "start" ile nereden başlayacağını belirledik -->
+        <li ><a href="https://twitter.com/AbrahamSmrg" target="_blank"><strong>Twitter</strong></a></li> <!-- Bir URL adres yönlendirmesi  -->
+        <li><a href="mailto:abrhmhalil@gmail.com">Posta gönder</a></li>     <!-- Bir posta bağlantısı -->
+        <li><a href="tel:+90541468598">Phone</a></li>       <!-- Telefon bağlantısı -->
+
+        </ul>
+    <hr>
+    <h3>Bana mesaj yaz </h3>
+    <form action="mailto:abrhmhalil@gmail.com" method="post" enctype="text/plain">
+
+        <label for="fullname">Fullname :</label>
+        <input type="text" id="fullname">
+    <br>
+        <label for="email">Your email :</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="tel">Your Phone :</label>
+        <input type="tel" name="tel" id="tel">
+        <br>
+        <textarea name="Mesage" id="message" cols="35" rows="5" >Mesajınızı buraya giriniz...</textarea>
+        <br>
+        <input type="submit" value="gönder">
+
+    </form>
+
+    </body>
+</html>
